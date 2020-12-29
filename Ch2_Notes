@@ -1,0 +1,5 @@
+C programs contain one or more functions, one of which must be main. Every program in C begins executing at the function main.
+Standard library functions like printf and scanf are not part of the C programming language. For example, the compiler cannot find a spelling error in printf or scanf. 
+When the compiler compiles a printf statement, it merely provides space in the object program for a “call” to the library function. But the compiler does not 
+know where the library functions are — the linker does. When the linker runs, it locates the library functions and inserts the proper calls to these library functions in 
+the object program. Now the object program is complete and ready to be executed. For this reason, the linked program is called an executable.
