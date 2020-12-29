@@ -15,9 +15,6 @@ int main(int argc, char const *argv[])
     {
         printf("%d is an odd integer\n", input_value);
     }
-    
-
-    
-    
+     
     return 0;
 }
