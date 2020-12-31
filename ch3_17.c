@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
         printf("Enter interest rate (as a decimal) : ");
         scanf("%f", &interest_rate);
 
-        printf("The montly payable interest $%.2f\n", ((mortgage_amount*interest_rate*mortgage_term) + mortgage_amount) / (mortgage_term*12)) ;
+        printf("The monthly payable interest $%.2f\n", ((mortgage_amount*interest_rate*mortgage_term) + mortgage_amount) / (mortgage_term*12)) ;
 
         printf("------------------------------------\n");
         printf("Enter account number (-1 to end) : ");
