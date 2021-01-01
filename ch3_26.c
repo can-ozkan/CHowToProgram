@@ -30,8 +30,8 @@ int main(int argc, char const *argv[])
         
     }
 
-    printf("The largest value is %d\n", number[9]);
-    printf("The second largest is %d\n", number[8]);
+    printf("The largest value is %u\n", number[9]);
+    printf("The second largest is %u\n", number[8]);
     
     return 0;
 }
