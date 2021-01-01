@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 
     while (counter < 10)
     {
-        printf("Please, enter a value: ");
+        printf("Please, enter ten values: ");
         scanf("%u", &number);
 
         if (number > largest)
