@@ -1,0 +1,5 @@
+You need to link with the math library:
+
+Including math.h brings in the declaration of the various functions and not their definition. The def is present in the math library libm.a. You need to 
+link your program with this library so that the calls to functions like pow() are resolved.
+Reference : https://stackoverflow.com/questions/12824134/undefined-reference-to-pow-in-c-despite-including-math-h
