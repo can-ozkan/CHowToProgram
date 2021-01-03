@@ -13,10 +13,8 @@ int main(int argc, char const *argv[])
         {
             result *= j;
         }
-
         printf("%9d%7d\n", i, result);
         result = 1;
-        
     }
     
     return 0;
