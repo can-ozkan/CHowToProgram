@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1613995209 source:c:\users\can.ozkan.1\desktop\c_programming\prime_number\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
