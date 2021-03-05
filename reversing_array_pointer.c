@@ -5,7 +5,6 @@ int main(int argc, char const *argv[])
 {
     int a[number] = {1,2,3,4,5};
     int *p = a;
-    int i;
 
     for ( p = a+number-1; p >=a ; p--)
     {
